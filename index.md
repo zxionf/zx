@@ -15,5 +15,13 @@
  - `推理之时` (Original)
    
      下载地址([https://github.com/zxionf/TLZS/releases](https://github.com/zxionf/TLZS/releases))
+     
+     高速下载地址([https://wwb.lanzouy.com/b03j1tzmf](https://wwb.lanzouy.com/b03j1tzmf),密码:zzzz)
    
-     源码地址([https://github.com/zxionf/TLZS](https://github.com/zxionf/TLZS))
+     项目源码([https://github.com/zxionf/TLZS](https://github.com/zxionf/TLZS))
+     
+     
+     ```鸣谢
+     #鸣谢
+     #TLZS贡献者:灰牌哲瀚,路殿下崛起,冰风
+     ```
