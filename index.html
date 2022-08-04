@@ -6,12 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.95">
 <!--
   <meta name="viewport" content="width=device-width, initial-scale=0.4">-->
-  <title>HTML</title>
+  <title>zxionf</title>
   <!-- HTML -->
   
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
+  
+  
+  
+  
+  
+  
+  
+  
 </head>
 
 <body>
@@ -40,7 +48,7 @@
       
       <h1>开源</h1>
       <hr>
-      
+        
 				<li>
 				  <code>2048</code> (SPCK)
 				  <div id="left">
@@ -51,6 +59,12 @@
 				  <code>xx142-b2.exe</code> (SPCK)
           <div id="left">
 				  <a href="https://zxionf.github.io/zx/xx142-b2/index.html">https://zxionf.github.io/zx/xx142b2/index.html</a>
+				  </div>
+				</li>
+				<li>
+				  <code>eatcat</code> (GITHUB)
+				  <div id="left">
+				    <a href="https://Eafoo.github.io/eatcat">https://Eafoo.github.io/eatcat</a>
 				  </div>
 				</li>
 				<li>
@@ -69,25 +83,138 @@
 				</div>
 				</div>
 				</li>
-			  
-			  <h1 id ="h1">中转</h1>
-			  <hr>
+			
+			<h1 id ="h1">中转</h1>
+			<hr>
 			  <li>
 			    <code>动漫番剧-ACG导航</code>
 			    <div id="left">
 			      <a href="https://acgdh.cc/links/dmtv">https://acgdh.cc/links/dmtv</a>
 			    </div>
 			  </li>
-      
-      <li>
-				  <code>pixivic</code>
+        <li>
+				  <code>Pixivic</code>
 				  <div id="left">
 				  <a href="https://m.pixivic.com/">https://m.pixivic.com/</a>
 				  </div>
 				</li>
+        <li>
+				  <code>Uptodown</code>
+				  <div id="left">
+				  <a href="https://cn.uptodown.com/android">https://cn.uptodown.com/android</a>
+				  </div>
+				</li>
+        <li>
+        <code>基岩</code>
+        <div id="left">
+          <a href="https://mcapks.com/">https://mcapks.com/</a>
+        </div>
+      </li>
       
       
       
+      <div id="TJ">
+      <!-- 次数统计 start -->
+      <center>
+        <script>
+          var caution = false
+            function setCookie(name, value, expires, path, domain, secure) {
+              var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "")
+              if (!caution || (name + "=" + escape(value)).length <= 4000)
+                document.cookie = curCookie
+              else if (confirm("Cookie exceeds 4KB and will be cut!"))
+                document.cookie = curCookie
+            }
+            function getCookie(name) {
+              var prefix = name + "="
+              var cookieStartIndex = document.cookie.indexOf(prefix)
+              if (cookieStartIndex == -1)
+                return null
+              var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
+              if (cookieEndIndex == -1)
+                cookieEndIndex = document.cookie.length
+              return unescape(document.cookie.substring(cookieStartIndex + prefix.length,cookieEndIndex))
+            }
+            function deleteCookie(name, path, domain) {
+              if (getCookie(name)) {
+                document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT"
+            }
+        }
+            function fixDate(date) {
+              var base = new Date(0)
+              var skew = base.getTime()
+              if (skew > 0)
+                date.setTime(date.getTime() - skew)
+            }
+          var now = new Date()
+          fixDate(now)
+          now.setTime(now.getTime() + 730 * 24 * 60 * 60 * 1000)
+          var visits = getCookie("counter")
+          if (!visits)
+            visits = 1
+          else
+            visits = parseInt(visits) + 1
+          setCookie("counter", visits, now)
+          document.write("<font size=2color=black>您第" + visits + " 次访问本站点")
+        </script>
+    </center>
+      <!-- 时长统计 start -->
+      <center>
+        <span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
+          <script type="text/javascript">
+            function NewDate(str) {
+              str = str.split('-');
+              var date = new Date();
+              date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+              date.setUTCHours(0, 0, 0, 0);
+              return date;
+            }
+            function momxc() {
+              var birthDay = NewDate("2022-8-1");
+              var today = new Date();
+              var timeold = today.getTime() - birthDay.getTime();
+              var sectimeold = timeold / 1000
+              var secondsold = Math.floor(sectimeold);
+              var msPerDay = 24 * 60 * 60 * 1000; var e_daysold = timeold / msPerDay;
+              var daysold = Math.floor(e_daysold);
+              var e_hrsold = (daysold - e_daysold) * -24;
+              var hrsold = Math.floor(e_hrsold);
+              var e_minsold = (hrsold - e_hrsold) * -60;
+              var minsold = Math.floor((hrsold - e_hrsold) * -60); var seconds = Math.floor((minsold - e_minsold) * -60).toString();
+              document.getElementById("momk").innerHTML = "本站已安全运行" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+              setTimeout(momxc, 1000);
+            } momxc();
+          </script>
+          <style>
+            #momk {
+              animation: change 10s infinite;
+              font-weight: 800;
+            }
+            @keyframes change {
+              0% {
+                color: #5cb85c;
+              }
+              25% {
+                color: #556bd8;
+              }
+              50% {
+                color: #e40707;
+              }
+              75% {
+                color: #66e616;
+              }
+              100% {
+                color: #67bd31;
+              }
+            }
+          </style>
+      </center>
+      <!-- 总次统计 start -->
+      <center>
+        <script async src="res/b.js"></script>
+        <span id="jilei_container_site_pv">本站总访问量<span id="jilei_value_site_pv"></span>次</span>
+      </center>
+      </div>
       
       
     </section>
@@ -97,12 +224,10 @@
   
   
   
-  
-  
   <!--FOOT-->
   <footer>
     <h3>About</h3>
-    <a href="https://github.com/zxionf/zx">View on GitHub<img id="git"src="github.svg"height="16px"width="16px"/></a>
+    <a href="https://github.com/zxionf/zx">View on GitHub<img id="git"src="res/github.svg"height="16px"width="16px"/></a>
     <br>
     zx maintained by <a href="https://github.com/zxionf">zxionf</a>
     <br>
