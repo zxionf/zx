@@ -25,6 +25,10 @@ footer{
   height: 300px;
   margin: 10px;
   color: #fcfcfc;
+ font-size: 14px;
+}
+footer div {
+  margin-bottom: 5px;
 }
 footer a{
   color:#F2F2F2;
