@@ -139,3 +139,8 @@ z{
 #TJ{
   margin-top: 80px;
 }
+
+
+pre{color:#222;background-color:#fff;font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;font-size:0.875em;border-radius:2px;-moz-border-radius:6px;-webkit-border-radius:6px}
+pre{padding:10px;box-shadow:0 0 20px rgba(0,0,0,0.1);overflow:auto}
+pre code{display:block;box-shadow:none}
